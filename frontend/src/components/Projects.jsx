@@ -1,5 +1,6 @@
 import ProjectImg from '../assets/project.jpg'
 import Gtn from '../assets/gtn.jpg'
+import Todo from '../assets/todo.jpg'
 
 export default function Projects(){
     return <section id='projects' className="flex flex-col py-20 px-5 justify-center bg-primary text-white">
@@ -31,6 +32,19 @@ export default function Projects(){
                    </div>
                     </div>
              </div>
+             <div className='relative'>
+                <img className='h-[200px] w-[1000px]' src={Todo}/>
+                    <div className='project-desc'>
+                        <p className='text-center py-5'>Todolist project done with mern stack</p>
+                        <div className='flex justify-center'>
+                       <a  className="btn" target="_blank" href="https://todolist-nu-orpin.vercel.app">View Project</a>
+                   
+                   </div>
+                    </div>
+             </div>
+
+ 
+ 
             </div>
 
         </div>
